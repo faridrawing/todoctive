@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.brand-logo {
+  transition: transform .125s ease;
+  -webkit-transition: transform .125s ease;
+  -moz-transition: transform .125s ease;
+  -ms-transition: transform .125s ease;
+  -o-transition: transform .125s ease;
+}
+
+.brand-logo:hover {
+  transform: scale(1.025);
+  -webkit-transform: scale(1.025);
+  -moz-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  -o-transform: scale(1.025);
+}
+
+li.task-list {
+  transition: all .125s linear;
+  -webkit-transition: all .125s linear;
+  -moz-transition: all .125s linear;
+  -ms-transition: all .125s linear;
+  -o-transition: all .125s linear;
+}
+
+li.task-list:hover {
+  background-color: #F8F9FA;
+}
+
+/* .options {
+  padding: 0;
+} */
