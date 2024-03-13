@@ -1,8 +1,37 @@
-# React + Vite
+# To Do Ctive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi to-do list yang membuatmu produktif
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone repository
+   ```
+   git clone https://github.com/faridrawing/todoctive.git
+   ```
+2. Buka direktori repository
+   ```
+   cd todoctive
+   ```
+3. Instal package(s) yang dibutuhkan
+   ```
+   npm install
+   ```
+4. Jalankan aplikasi dalam mode development
+   ```
+   npm run dev
+   ```
+5. Build aplikasi (opsional)
+   ```
+   npm run build
+   ```
+
+## Build With
+
+- React.js ⚛️
+- Bootstrap 🅱
+
+## Documentation
+
+![1710351155516](image/README/1710351155516.png)
+
+![1710351171931](image/README/1710351171931.png)
