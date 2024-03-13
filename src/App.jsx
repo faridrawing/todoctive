@@ -5,18 +5,7 @@ import ListTask from "./components/ListTask";
 import Footer from "./components/Footer";
 
 const App = () => {
-  const [tasks, setTasks] = useState([
-    { title: "Mengerjakan tugas", isDone: false, priority: 1, added: 1710243013352 },
-    { title: "Mandi pagi", isDone: true, priority: 2, added: 1710243013353 },
-    { title: "Berolahraga", isDone: false, priority: 3, added: 1710243013354 },
-    { title: "Membaca buku", isDone: false, priority: 1, added: 1710243013355 },
-    { title: "Menulis jurnal", isDone: true, priority: 2, added: 1710243013356 },
-    { title: "Mengatur agenda", isDone: true, priority: 3, added: 1710243013357 },
-    { title: "Belajar musik", isDone: false, priority: 1, added: 1710243013358 },
-    { title: "Menonton film", isDone: false, priority: 2, added: 1710243013359 },
-    { title: "Membuat makanan", isDone: false, priority: 3, added: 1710243013360 },
-    { title: "Membuat daftar belanja", isDone: false, priority: 1, added: 1710243013361 },
-  ]);
+  const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
     const savedItems = JSON.parse(localStorage.getItem("tasksList"));
